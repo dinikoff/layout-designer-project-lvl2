@@ -2,7 +2,8 @@ install:
 	npm install
 
 lint:
-	npx stylelint ./src/styles/*.css
+	clear
+	npx stylelint ./src/scss/*.scss
 	npx htmlhint ./src/*.html
 
 deploy:
