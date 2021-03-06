@@ -1,0 +1,25 @@
+.menu-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+.container {
+  padding-right: 120px;
+}
+
+.search {
+  width: 248px;
+  height: 25px;
+  background: #3c3b3d;
+}
+/*# sourceMappingURL=header.css.map */
