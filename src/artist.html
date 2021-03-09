@@ -8,24 +8,32 @@
     <title>Music box dinikoff</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="menu-container upp">
-                <img src="images/logo.svg" alt="logo" class="logo">
-                <div class="logo-text">Music Box</div>
-                <ul class="menu">
-                    <li class="menu-item">Главная</li>
-                    <li class="menu-item">Каталог</li>
-                    <li class="menu-item">Исполнители</li>
-                    <li class="menu-item">Контакты</li>
-                </ul>
-                <input type="text" class="search" placeholder="ПОИСК...">
-            </div>
-            <h1>Morten Harket</h1>
-            <p>24 875 поклонников</p>
-            <a href="#" class="btn">МИКС</a>
-            <a href="#" class="btn">В ИЗБРАННОЕ</a>
+    <section class="first-section">
+      <div class="container">
+        <header class="header">
+          <div class="header__logo">
+            <img class="header__logo-img" src="images/logo.svg" alt="logo">
+            <p class="header__logo-text">Music Box</p>
+          </div>
+          <nav class="header__menu">
+            <a href="#" class="header__menu-item">Главная</a>
+            <a href="#" class="header__menu-item">Каталог</a>
+            <a href="#" class="header__menu-item">Исполнители</a>
+            <a href="#" class="header__menu-item">Контакты</a>
+          </nav>
+          <input class="header__search-input" type="text" placeholder="ПОИСК...">
+        </header>
+        <h1 class="first-section__title">Morten Harket</h1>
+        <p class="first-section__sub-title">24 875 поклонников</p>
+        <div class="first-section__buttons-container">
+            <a href="#" class="first-section__btn-mix btn">
+              МИКС
+            </a>
+          <a href="#" class="first-section__btn-favorite btn">
+              В ИЗБРАННОЕ
+          </a>
         </div>
-    </header>
+      </div>
+    </section>
 </body>
 </html>

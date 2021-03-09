@@ -1,26 +1,134 @@
-.menu-container {
+.header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
-.menu {
+.header__logo {
   display: flex;
   flex-direction: row;
+  margin-right: 90px;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
 }
 
-.logo {
+.header__logo-img {
   width: 24px;
   height: 24px;
 }
 
-.container {
-  padding-right: 120px;
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+  align-items: center;
+  gap: 24px;
 }
 
-.search {
-  width: 248px;
+.header__search-input {
+  min-width: 240px;
   height: 25px;
-  background: #3c3b3d;
+  padding-left: 2px;
+  border-radius: 12.5px;
+  background-color: #3c3b3d;
+}
+
+@media (max-width: 800px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+  }
+  .header__search-input {
+    min-width: 240px;
+    flex-grow: 1;
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 62px;
+  padding-left: 31px;
+  gap: 16px;
+  font-size: 12.8px;
+  border-radius: 5px;
+}
+
+.first-section {
+  max-width: 1440px;
+  height: 730px;
+  margin: 0 auto;
+  padding-top: 25px;
+  background-image: url(../images/Morten%20Harket.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.first-section__title {
+  margin-top: 200px;
+}
+
+.first-section__sub-title {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.first-section__buttons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.first-section__btn-mix {
+  background-color: #5328a1;
+}
+
+.first-section__btn-mix::before {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+  background-repeat: no-repeat;
+  background-image: url(../images/play-button.svg);
+  content: "";
+}
+
+.first-section__btn-favorite {
+  background-color: #95390c;
+}
+
+.first-section__btn-favorite::before {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+  background-repeat: no-repeat;
+  background-image: url(../images/heart.svg);
+  content: "";
+}
+
+@media (max-width: 420px) {
+  .first-section__title {
+    margin-top: 53px;
+  }
+  .first-section__buttons-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @font-face {
@@ -41,8 +149,14 @@
   src: url(../fonts/Roboto-Bold.ttf);
 }
 
-* {
+html {
   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
   border: 0;
@@ -50,6 +164,11 @@
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -61,23 +180,24 @@ body {
 }
 
 h1 {
-  font-size: 3.34rem;
+  font-size: 60px;
+  line-height: 1.5;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 2.11rem;
+  font-size: 38px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 1.33rem;
+  font-size: 24px;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 18px;
 }
 
 .cap {
@@ -94,14 +214,15 @@ h4 {
 
 @media (max-width: 414px) {
   h1 {
-    font-size: 1.67rem;
+    font-size: 30px;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 18px;
   }
 }
 
 .container {
-  padding-left: 120px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-/*# sourceMappingURL=style.css.map */

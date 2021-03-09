@@ -1,0 +1,16 @@
+@import "vars";
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 62px;
+
+    padding-left: 31px;
+
+    gap: 16px;
+
+    font-size: $small-text;
+
+    border-radius: 5px;
+}

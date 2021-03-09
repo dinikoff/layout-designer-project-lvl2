@@ -1,5 +1,6 @@
 @import "vars";
-@import "header";
+@import "mixins";
+@import "first-section";
 
 @font-face {
   font-weight: normal;
@@ -19,8 +20,15 @@
   src: url(../fonts/Roboto-Bold.ttf);
 }
 
-* {
+html {
   box-sizing: border-box;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 
   margin: 0;
   padding: 0;
@@ -31,9 +39,14 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   color: #fff;
-  
+
   font-size: $base-size;
   font-family: 'Roboto', serif;
 
@@ -42,19 +55,18 @@ body {
   background-color: $main-bg;
 }
 
-@mixin heading {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
 h1 {
   font-size: $h1;
-  @include heading;
+
+  line-height: 1.5;
+
+  @include heading();
 }
 
 h2 {
   font-size: $h2;
-  @include heading;
+
+  @include heading();
 }
 
 h3 {
@@ -88,5 +100,7 @@ h4 {
 }
 
 .container {
-  padding-left: 120px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
