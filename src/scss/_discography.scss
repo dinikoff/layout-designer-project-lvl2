@@ -1,0 +1,40 @@
+.discography {
+  &__container {
+    @include flex-row;
+    flex-wrap: wrap;
+    gap: 25px 50px;
+    margin-top: 48px;
+  }
+
+  &__title {
+    margin-top: 100px;
+  }
+
+  &__img {
+    width: 250px;
+    height: 250px;
+  }
+
+  &__album-title {
+    margin-top: 11px;
+
+    font-weight: bold;
+    letter-spacing: -0.01em;
+  }
+
+  &__year {
+    font-weight: 400;
+    font-size: $medium-text;
+  }
+
+  @media (max-width: 420px) {
+    &__img {
+      width: 137px;
+      height: 137px;
+    }
+
+    &__album {
+      max-width: 137px;
+    }
+  }
+}

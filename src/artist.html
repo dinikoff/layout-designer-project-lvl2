@@ -1,39 +1,189 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
     <title>Music box dinikoff</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <img class="header__logo-img" src="./images/logo.svg" alt="logo" />
+          <p class="header__logo-text">Music Box</p>
+        </div>
+        <nav class="header__menu">
+          <a href="#" class="header__menu-item">Главная</a>
+          <a href="#" class="header__menu-item">Каталог</a>
+          <a href="#" class="header__menu-item">Исполнители</a>
+          <a href="#" class="header__menu-item">Контакты</a>
+        </nav>
+        <input
+          class="header__search-input"
+          type="text"
+          placeholder="ПОИСК..."
+        />
+      </header>
+    </div>
     <section class="first-section">
       <div class="container">
-        <header class="header">
-          <div class="header__logo">
-            <img class="header__logo-img" src="images/logo.svg" alt="logo">
-            <p class="header__logo-text">Music Box</p>
-          </div>
-          <nav class="header__menu">
-            <a href="#" class="header__menu-item">Главная</a>
-            <a href="#" class="header__menu-item">Каталог</a>
-            <a href="#" class="header__menu-item">Исполнители</a>
-            <a href="#" class="header__menu-item">Контакты</a>
-          </nav>
-          <input class="header__search-input" type="text" placeholder="ПОИСК...">
-        </header>
         <h1 class="first-section__title">Morten Harket</h1>
         <p class="first-section__sub-title">24 875 поклонников</p>
         <div class="first-section__buttons-container">
-            <a href="#" class="first-section__btn-mix btn">
-              МИКС
-            </a>
-          <a href="#" class="first-section__btn-favorite btn">
-              В ИЗБРАННОЕ
-          </a>
+          <a href="#" class="first-section__btn-mix btn"> МИКС </a>
+          <a href="#" class="first-section__btn-favorite btn"> В ИЗБРАННОЕ </a>
         </div>
       </div>
     </section>
-</body>
+    <section class="popular">
+      <div class="container">
+        <h2 class="popular__title">Популярные треки</h2>
+        <div class="popular__columns-container">
+          <div class="popular__track-container">
+            <div class="popular__track">
+              <img src="./images/Wild Seed.png" alt="" class="popular__img" />
+              <div class="popular__track-description">
+                <p class="popular__track-name">Spanish Step</p>
+                <p class="popular__track-artist">Morten Harket</p>
+              </div>
+            </div>
+            <p class="popular__time">4:07</p>
+          </div>
+          <div class="popular__track-container">
+            <div class="popular__track">
+              <img
+                class="popular__img"
+                src="./images/Letter from Egypt.png"
+                alt="track-logo"
+              />
+              <div class="popular__track-description">
+                <p class="popular__track-name">With You - With Me</p>
+                <p class="popular__track-artist">Morten Harket</p>
+              </div>
+            </div>
+            <p class="popular__time">3:48</p>
+          </div>
+          <div class="popular__track-container">
+            <div class="popular__track">
+              <img
+                class="popular__img"
+                src="./images/Brother.png"
+                alt="track logo"
+              />
+              <div class="popular__track-description">
+                <p class="popular__track-name">Brother</p>
+                <p class="popular__track-artist">Morten Harket</p>
+              </div>
+            </div>
+            <p class="popular__time">5:05</p>
+          </div>
+          <div class="popular__track-container">
+            <div class="popular__track">
+              <img
+                class="popular__img"
+                src="./images/Wild Seed.png"
+                alt="track-logo"
+              />
+              <div class="popular__track-description">
+                <p class="popular__track-name">Brodsky Tune</p>
+                <p class="popular__track-artist">Morten Harket</p>
+              </div>
+            </div>
+            <p class="popular__time">4:24</p>
+          </div>
+          <div class="popular__track-container">
+            <div class="popular__track">
+              <img
+                class="popular__img"
+                src="./images/Letter from Egypt.png"
+                alt="track-logo"
+              />
+              <div class="popular__track-description">
+                <p class="popular__track-name">Darkspace</p>
+                <p class="popular__track-artist">Morten Harket</p>
+              </div>
+            </div>
+            <p class="popular__time">3:45</p>
+          </div>
+          <div class="popular__track-container">
+            <div class="popular__track">
+              <img
+                class="popular__img"
+                src="./images/Out of My Hands.png"
+                alt="track-logo"
+              />
+              <div class="popular__track-description">
+                <p class="popular__track-name">Burn Money Burn</p>
+                <p class="popular__track-artist">Morten Harket</p>
+              </div>
+            </div>
+            <p class="popular__time">3:52</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="discography">
+      <div class="container">
+        <h2 class="discography__title">Дискография</h2>
+        <div class="discography__container">
+          <div class="discography__album">
+            <img
+              src="./images/Brother.png"
+              alt="album logo"
+              class="discography__img"
+            />
+            <h4 class="discography__album-title">Brother</h4>
+            <p class="discography__year">2014</p>
+          </div>
+          <div class="discography__album">
+            <img
+              src="./images/Out of My Hands.png"
+              alt="album logo"
+              class="discography__img"
+            />
+            <h4 class="discography__album-title">Out Of My Hands</h4>
+            <p class="discography__year">2012</p>
+          </div>
+          <div class="discography__album">
+            <img
+              src="./images/Letter from Egypt.png"
+              alt="album logo"
+              class="discography__img"
+            />
+            <h4 class="discography__album-title">Letter From Egypt</h4>
+            <p class="discography__year">2008</p>
+          </div>
+          <div class="discography__album">
+            <img
+              src="./images/Vogts Villa.png"
+              alt="album logo"
+              class="discography__img"
+            />
+            <h4 class="discography__album-title">Vogts Vills</h4>
+            <p class="discography__year">1996</p>
+          </div>
+          <div class="discography__album">
+            <img
+              src="./images/Wild Seed.png"
+              alt="album logo"
+              class="discography__img"
+            />
+            <h4 class="discography__album-title">Wild Seed</h4>
+            <p class="discography__year">1995</p>
+          </div>
+          <div class="discography__album">
+            <img
+              src="./images/Poetenes Evangelium.png"
+              alt="album logo"
+              class="discography__img"
+            />
+            <h4 class="discography__album-title">Poetenes Evangelium</h4>
+            <p class="discography__year">1993</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

@@ -1,14 +1,14 @@
 @mixin heading() {
-    font-weight: bold;
-    text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 @mixin flex-row() {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 @mixin flex-col() {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }

@@ -1,0 +1,59 @@
+.popular {
+  &__columns-container {
+    @include flex-row;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    row-gap: 25px;
+  }
+
+  &__title {
+    margin-top: 100px;
+  }
+
+  &__track-container {
+    @include flex-row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 50px;
+  }
+
+  &__track {
+    @include flex-row;
+    gap: 15px;
+  }
+
+  &__track-description {
+    @include flex-col;
+    justify-content: center;
+  }
+
+  &__img {
+    width: 55px;
+    height: 55px;
+  }
+
+  &__track-name {
+    font-weight: bold;
+    font-size: $small-text;
+    text-transform: uppercase;
+  }
+
+  &__track-artist,
+  &__time {
+    font-size: $small-text;
+  }
+}
+
+@media (max-width: 420px) {
+  .popular {
+    &__columns-container {
+      @include flex-col;
+    }
+
+    &__track-container {
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+}
