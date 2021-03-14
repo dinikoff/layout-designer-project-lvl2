@@ -12,3 +12,10 @@
   display: flex;
   flex-direction: column;
 }
+
+@mixin transparent-border {
+  border: 2px solid $muted-color-2;
+  border-radius: 3px;
+
+  background-color: rgba(0, 0, 0, 0);
+}
