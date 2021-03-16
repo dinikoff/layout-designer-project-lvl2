@@ -1,0 +1,95 @@
+.pricing {
+  padding-top: 100px;
+
+  text-align: center;
+
+  &__card-container {
+    @include flex-row;
+    justify-content: space-between;
+    margin-top: 48px;
+
+    column-gap: 50px;
+  }
+
+  &__card {
+    width: 367px;
+    height: 615px;
+    padding: 1.5rem;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__card_free {
+    background-image: url(../images/subscribe_1.png);
+  }
+
+  &__card_standart {
+    background-image: url(../images/subscribe_2.png);
+  }
+
+  &__card_premium {
+    background-image: url(../images/subscribe_3.png);
+  }
+
+  &__card-title {
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  &__price {
+    @include flex-row;
+    justify-content: center;
+    margin-top: 182px;
+
+    font-size: $big-text;
+    column-gap: 16px;
+  }
+
+  &__price-num {
+    align-items: flex-end;
+
+    font-size: $big-text;
+  }
+
+  &__price-currency {
+    padding-top: 16px;
+
+    font-weight: normal;
+    font-size: 0.5em;
+    text-transform: uppercase;
+  }
+
+  &__button {
+    @include transparent-border;
+    display: block;
+    margin-top: 25px;
+
+    font-size: $medium-text;
+  }
+
+  &__description {
+    margin-top: 63px;
+
+    font-size: $small-text;
+  }
+
+  &__common-description {
+    margin-top: 40px;
+
+    font-size: $medium-text;
+  }
+
+  @media (max-width: 420px) {
+    &__card-container {
+      @include flex-col;
+      row-gap: 50px;
+    }
+
+    &__card {
+      width: 374px;
+      height: 595px;
+      padding: 1rem 1.5rem 0;
+    }
+  }
+}
