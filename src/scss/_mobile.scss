@@ -8,30 +8,36 @@
   &__inner {
     display: flex;
     margin-top: 48px;
+
     column-gap: 42px;
   }
 
   &__description {
     width: 50%;
     margin-top: 16px;
+
     font-size: $medium-text;
   }
 
   &__text {
     margin-bottom: 16px;
+
     letter-spacing: -0.1px;
   }
 
   &__button {
     display: inline-block;
-    background-color: $accent-bg-color-4;
-    font-size: $small-text;
     padding: 16px 40px;
     border-radius: 30px;
+
+    font-size: $small-text;
+
+    background-color: $accent-bg-color-4;
   }
 
   &__img-inner {
     width: 50%;
+
     text-align: center;
   }
 
@@ -46,8 +52,8 @@
     }
 
     &__img-inner {
-      width: 100%;
       justify-content: center;
+      width: 100%;
       // width: 100%;
       // align-self: center;
       // text-align: center;
