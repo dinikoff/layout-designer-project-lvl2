@@ -1,0 +1,34 @@
+.similar {
+  padding: 100px 0;
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 50px;
+    margin-top: 48px;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__info-title {
+    margin-top: 11px;
+  }
+
+  &__info {
+    font-weight: 200;
+    font-size: 16px;
+  }
+
+  @media (max-width: 420px) {
+    &__item {
+      width: 137px;
+    }
+
+    &__img {
+      width: 137px;
+      height: 137px;
+    }
+  }
+}
