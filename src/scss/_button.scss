@@ -1,17 +1,5 @@
 .btn {
   display: flex;
-  gap: 16px;
-  align-items: center;
-  width: 200px;
-  height: 62px;
-  padding-left: 31px;
-  border-radius: 5px;
-
-  font-size: $small-text;
-}
-
-.button {
-  display: flex;
   min-height: 50px;
   padding: 20px;
   border-radius: 5px;
