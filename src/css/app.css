@@ -448,11 +448,6 @@ h4 {
   column-gap: 16px;
 }
 
-.pricing__price-num {
-  align-items: flex-end;
-  font-size: 64px;
-}
-
 .pricing__price-currency {
   padding-top: 16px;
   font-weight: normal;
@@ -466,6 +461,8 @@ h4 {
   background-color: rgba(0, 0, 0, 0);
   display: block;
   margin-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-size: 16px;
   text-transform: uppercase;
 }
