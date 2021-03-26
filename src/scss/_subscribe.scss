@@ -50,6 +50,10 @@
   @media (max-width: 420px) {
     padding: 200px 0  200px;
 
+    &__title {
+      margin-top: 47px;
+    }
+
     &__description {
       margin-top: 17px;
     }

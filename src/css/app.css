@@ -390,6 +390,9 @@ h4 {
   .subscribe {
     padding: 200px 0  200px;
   }
+  .subscribe__title {
+    margin-top: 47px;
+  }
   .subscribe__description {
     margin-top: 17px;
   }
