@@ -38,22 +38,16 @@
   }
 
   &__price {
-    @include flex-row;
-    justify-content: center;
-    margin-top: 200px;
+    margin-top: 188px;
 
     font-size: $big-text;
     line-height: 1em;
-    column-gap: 16px;
   }
 
   &__price-currency {
-    margin-top: -10px;
-
-
-    font-weight: normal;
     font-size: 0.5em;
     text-transform: uppercase;
+    vertical-align: super;
   }
 
   &__button {

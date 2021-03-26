@@ -440,18 +440,13 @@ h4 {
 }
 
 .pricing__price {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 200px;
+  margin-top: 188px;
   font-size: 64px;
-  column-gap: 16px;
   line-height: 1em;
 }
 
 .pricing__price-currency {
-  margin-top: -10px;
-  font-weight: normal;
+  vertical-align: super;
   font-size: 0.5em;
   text-transform: uppercase;
 }
@@ -462,8 +457,8 @@ h4 {
   background-color: rgba(0, 0, 0, 0);
   display: block;
   margin-top: 38px;
-  padding-left: 30px;
   padding-right: 30px;
+  padding-left: 30px;
   font-size: 16px;
   text-transform: uppercase;
 }
