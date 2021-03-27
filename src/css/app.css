@@ -95,8 +95,9 @@ h4 {
 
 .container {
   position: relative;
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .btn {
@@ -401,8 +402,8 @@ h4 {
 }
 
 .pricing {
-  max-width: 1200px;
-  padding-top: 100px;
+  max-width: 1240px;
+  padding: 100px 20px 0 20px;
   text-align: center;
 }
 
@@ -418,9 +419,9 @@ h4 {
   width: 367px;
   height: 615px;
   padding: 1.5rem;
+  border-radius: 1rem;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 1rem;
 }
 
 .pricing__card_free {
