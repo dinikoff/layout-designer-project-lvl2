@@ -420,6 +420,7 @@ h4 {
   padding: 1.5rem;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 1rem;
 }
 
 .pricing__card_free {
@@ -446,9 +447,9 @@ h4 {
 }
 
 .pricing__price-currency {
-  vertical-align: super;
   font-size: 0.5em;
   text-transform: uppercase;
+  vertical-align: super;
 }
 
 .pricing__button {
