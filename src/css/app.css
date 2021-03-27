@@ -95,9 +95,8 @@ h4 {
 
 .container {
   position: relative;
-  max-width: 1240px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .btn {
@@ -402,6 +401,7 @@ h4 {
 }
 
 .pricing {
+  max-width: 1200px;
   padding-top: 100px;
   text-align: center;
 }
