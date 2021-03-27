@@ -95,9 +95,8 @@ h4 {
 
 .container {
   position: relative;
-  max-width: 1240px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .btn {
@@ -446,9 +445,9 @@ h4 {
 }
 
 .pricing__price-currency {
-  vertical-align: super;
   font-size: 0.5em;
   text-transform: uppercase;
+  vertical-align: super;
 }
 
 .pricing__button {
