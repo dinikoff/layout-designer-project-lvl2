@@ -527,6 +527,7 @@ h4 {
 
 .news__description-title {
   font-size: 30px;
+  font-weight: normal;
   text-transform: capitalize;
 }
 
