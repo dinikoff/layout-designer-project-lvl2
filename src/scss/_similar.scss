@@ -1,5 +1,5 @@
 .similar {
-  padding: 100px 0;
+  @include container;
 
   &__inner {
     display: flex;

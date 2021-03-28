@@ -1,13 +1,11 @@
 .discography {
+  @include container;
+
   &__container {
     @include flex-row;
     flex-wrap: wrap;
     gap: 25px 50px;
     margin-top: 48px;
-  }
-
-  &__title {
-    margin-top: 100px;
   }
 
   &__img {

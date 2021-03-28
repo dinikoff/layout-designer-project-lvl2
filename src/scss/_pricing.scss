@@ -1,6 +1,5 @@
 .pricing {
-  max-width: 1240px;
-  padding: 100px 20px 0 20px;
+  @include container;
 
   text-align: center;
 
