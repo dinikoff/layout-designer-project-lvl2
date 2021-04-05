@@ -660,14 +660,11 @@ h4 {
 
 .footer__sub-menu {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.footer__sub-menu-social {
-  display: flex;
-  flex-direction: row;
-  margin-top: 18px;
-  column-gap: 24px;
+.footer__icon {
+  padding: 3px 20px 3px 0;
 }
 
 .footer__menu-title {
@@ -679,9 +676,10 @@ h4 {
 .footer__bottom {
   display: flex;
   flex-direction: row;
-  padding: 2.3rem 120px 3rem;
+  padding: 2.5rem 120px 3rem;
   border-top: 1px solid #e0e0e0;
-  column-gap: 5px;
+  font-size: 16px;
+  column-gap: 15px;
 }
 
 @media (max-width: 420px) {
