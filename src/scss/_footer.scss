@@ -11,12 +11,13 @@
     column-gap: 40px;
   }
 
-  &__menu {
-    margin-top: 14px;
+  &__menu-title {
+     margin: 14px 0;
   }
 
   &__sub-menu {
-    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   &__sub-menu-social {
