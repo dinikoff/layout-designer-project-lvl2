@@ -530,8 +530,8 @@ h4 {
 }
 
 .news__description-title {
-  font-size: 30px;
   font-weight: normal;
+  font-size: 30px;
   text-transform: capitalize;
 }
 
@@ -647,11 +647,11 @@ h4 {
 }
 
 .footer__top {
-  padding: 3rem 120px 4.6rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 40px;
+  padding: 3rem 120px 4.6rem;
   font-size: 16px;
+  column-gap: 40px;
 }
 
 .footer__menu {
@@ -675,28 +675,24 @@ h4 {
   text-transform: uppercase;
 }
 
-.footer__menu-item {
-  display: block;
-}
-
 .footer__bottom {
-  padding: 2.3rem 120px 3rem;
-  column-gap: 5px;
   display: flex;
   flex-direction: row;
+  padding: 2.3rem 120px 3rem;
   border-top: 1px solid #e0e0e0;
+  column-gap: 5px;
 }
 
 @media (max-width: 420px) {
   .footer__top {
-    padding: 3rem 20px 4.2rem;
-    row-gap: 18px;
     display: flex;
     flex-direction: column;
+    padding: 3rem 20px 4.2rem;
+    row-gap: 18px;
   }
   .footer__bottom {
-    padding: 2.3rem 20px 3rem;
     flex-direction: column;
+    padding: 2.3rem 20px 3rem;
     row-gap: 13px;
   }
 }
