@@ -686,13 +686,13 @@ h4 {
   .footer__top {
     display: flex;
     flex-direction: column;
-    padding: 3rem 20px 4.2rem;
+    padding: 3rem 20px 4.1rem;
     row-gap: 18px;
   }
   .footer__bottom {
     flex-direction: column;
-    padding: 2.3rem 20px 3rem;
-    row-gap: 13px;
+    padding: 2.5rem 20px 3rem;
+    row-gap: 16px;
   }
 }
 
