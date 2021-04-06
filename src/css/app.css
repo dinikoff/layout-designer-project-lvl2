@@ -143,6 +143,7 @@ h4 {
   padding: 20px 30px;
   font-size: 12.8px;
   column-gap: 15px;
+  text-transform: uppercase;
 }
 
 .first-section__btn_mix {
@@ -161,10 +162,10 @@ h4 {
 
 @media (max-width: 420px) {
   .first-section {
-    padding: 171px 0 224px 0;
+    padding: 200px 0 224px 0;
   }
   .first-section__title {
-    margin-top: 53px;
+    margin-top: 25px;
   }
   .first-section__buttons-container {
     display: flex;
