@@ -16,9 +16,11 @@
   &__album-title {
     margin-top: 11px;
 
-    font-size: 18px;
     font-weight: bold;
+
+    font-size: 18px;
     letter-spacing: -0.01em;
+    text-transform: capitalize;
   }
 
   &__year {
