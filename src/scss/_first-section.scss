@@ -56,7 +56,7 @@
 
 @media (max-width: 420px) {
   .first-section {
-    padding: 200px 0 224px 0;
+    padding: 200px 0 200px 0;
 
     &__title {
       margin-top: 25px;
@@ -64,6 +64,7 @@
 
     &__buttons-container {
       @include flex-col();
+      padding-bottom: 25px;
     }
   }
 }
