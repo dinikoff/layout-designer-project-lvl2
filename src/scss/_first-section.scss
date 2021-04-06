@@ -24,41 +24,56 @@
 
   &__buttons-container {
     @include flex-row();
-    gap: 24px;
+    gap: 1.5em;
 
     margin-top: 48px;
   }
 
-  &__btn-mix {
-    background-color: $accent-bg-color-3;
+  &__btn {
+    width: 200px;
+    padding: 20px 30px;
 
-    &::before {
-      width: 20px;
-      height: 20px;
-
-      background-image: url(../images/play-button.svg);
-      background-repeat: no-repeat;
-      filter: invert(100%);
-
-      content: "";
-    }
+    font-size: 12.8px;
+    column-gap: 15px;
   }
 
-  &__btn-favorite {
+  &__btn_mix {
+    background-color: $accent-bg-color-3;
+
+    // &::before {
+    //   width: 20px;
+    //   height: 20px;
+
+    //   background-image: url(../images/play-button.svg);
+    //   background-repeat: no-repeat;
+    //   filter: invert(100%);
+
+    //   content: "";
+    // }
+  }
+
+  &__btn_favorite {
     background-color: $accent-bg-color-4;
 
-    &::before {
-      width: 20px;
-      height: 20px;
+    // &::before {
+    //   width: 20px;
+    //   height: 20px;
 
-      background-image: url(../images/heart.svg);
+    //   background-image: url(../images/heart.svg);
 
-      background-repeat: no-repeat;
+    //   background-repeat: no-repeat;
 
-      filter: invert(100%);
+    //   filter: invert(100%);
 
-      content: "";
-    }
+    //   content: "";
+    // }
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+
+    filter: invert(100%);
   }
 }
 
