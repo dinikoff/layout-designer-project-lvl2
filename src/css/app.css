@@ -326,8 +326,8 @@ h4 {
 
 .discography__album-title {
   margin-top: 11px;
-  font-size: 18px;
   font-weight: bold;
+  font-size: 18px;
   letter-spacing: -0.01em;
   text-transform: capitalize;
 }
@@ -713,6 +713,7 @@ h4 {
 .similar__info-title {
   margin-top: 11px;
   font-size: 18px;
+  text-transform: capitalize;
 }
 
 .similar__info {
