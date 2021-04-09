@@ -9,7 +9,7 @@
   ],
   "rules": {
     "declaration-empty-line-before": null,
-    "property-no-unknown": null,
+    "at-rule-no-unknown": null,
     "order/properties-order": [],
     "plugin/rational-order": [true, {
       "border-in-box-model": true,
