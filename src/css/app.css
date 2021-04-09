@@ -41,23 +41,25 @@ a {
 body {
   max-width: 1440px;
   margin: 0 auto;
+
   color: #fff;
   font-size: 18px;
   font-family: "Roboto", serif;
   line-height: 1.5;
+
   background-color: #08020d;
 }
 
 h1 {
+  font-weight: bold;
   font-size: 60px;
   line-height: 1.5;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 38px;
   font-weight: bold;
+  font-size: 38px;
   text-transform: uppercase;
 }
 
@@ -85,9 +87,11 @@ h4 {
   h1 {
     font-size: 30px;
   }
+
   h2 {
     font-size: 18px;
   }
+
   h3 {
     font-size: 16px;
   }
@@ -95,6 +99,7 @@ h4 {
 
 .container {
   position: relative;
+
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
@@ -106,16 +111,19 @@ h4 {
   min-height: 50px;
   padding: 20px;
   border-radius: 5px;
+
   color: white;
   font-size: 13.3px;
 }
 
 .first-section {
   position: relative;
+
   max-width: 1440px;
   min-height: 713px;
   margin: 0 auto;
   padding: 200px 0 200px 0;
+
   background-image: url(../images/Morten%20Harket.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -128,6 +136,7 @@ h4 {
 
 .first-section__sub-title {
   margin-top: 16px;
+
   font-size: 16px;
 }
 
@@ -141,6 +150,7 @@ h4 {
 .first-section__btn {
   width: 200px;
   padding: 20px 30px;
+
   font-size: 12.8px;
   text-transform: uppercase;
   column-gap: 15px;
@@ -157,6 +167,7 @@ h4 {
 .first-section__icon {
   width: 20px;
   height: 20px;
+
   filter: invert(100%);
 }
 
@@ -164,9 +175,11 @@ h4 {
   .first-section {
     padding: 200px 0 200px 0;
   }
+
   .first-section__title {
     margin-top: 25px;
   }
+
   .first-section__buttons-container {
     display: flex;
     flex-direction: column;
@@ -180,6 +193,7 @@ h4 {
   right: 0;
   left: 0;
   z-index: 50;
+
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -208,6 +222,7 @@ h4 {
   display: flex;
   flex-direction: row;
   margin-left: 90px;
+
   column-gap: 23px;
 }
 
@@ -217,6 +232,7 @@ h4 {
   margin-left: auto;
   padding-left: 10px;
   border-radius: 12.5px;
+
   background-color: #3c3b3d;
 }
 
@@ -226,12 +242,14 @@ h4 {
     flex-direction: column;
     align-items: start;
   }
+
   .header__menu {
     display: flex;
     flex-direction: column;
     margin-top: 17px;
     margin-left: 0;
   }
+
   .header__search-input {
     margin-top: 17px;
     margin-left: 0;
@@ -290,7 +308,8 @@ h4 {
   text-transform: uppercase;
 }
 
-.popular__track-artist, .popular__time {
+.popular__track-artist,
+.popular__time {
   font-size: 12.8px;
 }
 
@@ -299,6 +318,7 @@ h4 {
     display: flex;
     flex-direction: column;
   }
+
   .popular__track-container {
     width: 100%;
     padding-right: 0;
@@ -326,6 +346,7 @@ h4 {
 
 .discography__album-title {
   margin-top: 11px;
+
   font-weight: bold;
   font-size: 18px;
   letter-spacing: -0.01em;
@@ -342,6 +363,7 @@ h4 {
     width: 137px;
     height: 137px;
   }
+
   .discography__album {
     max-width: 137px;
   }
@@ -349,7 +371,9 @@ h4 {
 
 .subscribe {
   padding: 200px 0;
+
   text-align: center;
+
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -357,6 +381,7 @@ h4 {
 
 .subscribe__description {
   margin-top: 33px;
+
   font-size: 16px;
 }
 
@@ -371,16 +396,18 @@ h4 {
 }
 
 .subscribe__input {
-  border: 2px solid #cacaca;
-  border-radius: 3px;
-  background-color: rgba(0, 0, 0, 0);
   min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+
   color: white;
   font-weight: bold;
   font-size: 14px;
   font-family: 'Roboto', serif;
+
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .subscribe__button {
@@ -388,9 +415,11 @@ h4 {
   min-height: 50px;
   padding: 22px;
   border-radius: 5px;
+
   color: white;
   font-size: 13.3px;
   text-transform: uppercase;
+
   background-color: #34c176;
 }
 
@@ -398,12 +427,15 @@ h4 {
   .subscribe {
     padding: 200px 0  200px;
   }
+
   .subscribe__title {
     margin-top: 47px;
   }
+
   .subscribe__description {
     margin-top: 17px;
   }
+
   .subscribe__input {
     flex-grow: 1;
   }
@@ -413,6 +445,7 @@ h4 {
   max-width: 1240px;
   margin: 0 auto;
   padding: 100px 20px 0 20px;
+
   text-align: center;
 }
 
@@ -421,6 +454,7 @@ h4 {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 48px;
+
   column-gap: 50px;
 }
 
@@ -429,6 +463,7 @@ h4 {
   height: 615px;
   padding: 1.5rem;
   border-radius: 1rem;
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -452,6 +487,7 @@ h4 {
 
 .pricing__price {
   margin-top: 188px;
+
   font-size: 64px;
   line-height: 1em;
 }
@@ -463,25 +499,29 @@ h4 {
 }
 
 .pricing__button {
-  border: 2px solid #cacaca;
-  border-radius: 3px;
-  background-color: rgba(0, 0, 0, 0);
   display: block;
   margin-top: 38px;
   padding-right: 30px;
   padding-left: 30px;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+
   font-size: 16px;
   text-transform: uppercase;
+
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .pricing__description {
   margin-top: 63px;
+
   font-size: 12.8px;
   letter-spacing: 0.01em;
 }
 
 .pricing__common-description {
   margin-top: 40px;
+
   font-size: 16px;
 }
 
@@ -491,6 +531,7 @@ h4 {
     flex-direction: column;
     row-gap: 50px;
   }
+
   .pricing__card {
     width: 374px;
     height: 595px;
@@ -518,6 +559,7 @@ h4 {
 .news__wrapper {
   display: flex;
   flex-direction: row;
+
   column-gap: 50px;
 }
 
@@ -537,12 +579,14 @@ h4 {
 
 .news__description-text {
   margin-top: 30px;
+
   font-size: 16px;
 }
 
 .news__description-author {
   display: flex;
   margin-top: 24px;
+
   font-size: 12.8px;
   column-gap: 16px;
 }
@@ -552,37 +596,44 @@ h4 {
 }
 
 .news__button {
-  border: 2px solid #cacaca;
-  border-radius: 3px;
-  background-color: rgba(0, 0, 0, 0);
   align-items: center;
   justify-content: center;
   width: 141px;
   height: 53px;
   margin-top: 48px;
   padding: 16px 30px;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+
+  background-color: rgba(0, 0, 0, 0);
 }
 
 @media (max-width: 420px) {
   .news__container {
     flex-direction: column;
   }
+
   .news__wrapper {
     flex-direction: column;
     row-gap: 50px;
   }
+
   .news__img {
     width: 100%;
   }
+
   .news__description {
     width: 100%;
   }
+
   .news__description-title {
     font-size: 16px;
   }
+
   .news__description-text {
     margin-top: 16px;
   }
+
   .news__wrapper_reverse {
     flex-direction: column-reverse;
   }
@@ -601,17 +652,20 @@ h4 {
 .mobile__inner {
   display: flex;
   margin-top: 48px;
+
   column-gap: 42px;
 }
 
 .mobile__description {
   width: 50%;
   margin-top: 16px;
+
   font-size: 16px;
 }
 
 .mobile__text {
   margin-bottom: 16px;
+
   letter-spacing: -0.2px;
 }
 
@@ -619,12 +673,15 @@ h4 {
   display: inline-block;
   padding: 16px 40px;
   border-radius: 32px;
+
   font-size: 12.8px;
+
   background-color: #95390c;
 }
 
 .mobile__img-inner {
   width: 50%;
+
   text-align: center;
 }
 
@@ -632,10 +689,12 @@ h4 {
   .mobile__inner {
     flex-direction: column-reverse;
   }
+
   .mobile__description {
     width: 100%;
     margin-top: 9px;
   }
+
   .mobile__img-inner {
     justify-content: center;
     width: 100%;
@@ -650,12 +709,14 @@ h4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 120px 4.6rem;
+
   font-size: 16px;
   column-gap: 40px;
 }
 
 .footer__menu-title {
   margin: 14px 0;
+
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
@@ -675,6 +736,7 @@ h4 {
   flex-direction: row;
   padding: 2.5rem 120px 3rem;
   border-top: 1px solid #e0e0e0;
+
   font-size: 16px;
   column-gap: 15px;
 }
@@ -686,6 +748,7 @@ h4 {
     padding: 3rem 20px 4.1rem;
     row-gap: 18px;
   }
+
   .footer__bottom {
     flex-direction: column;
     padding: 2.5rem 20px 3rem;
@@ -712,6 +775,7 @@ h4 {
 
 .similar__info-title {
   margin-top: 11px;
+
   font-size: 18px;
   text-transform: capitalize;
 }
@@ -725,6 +789,7 @@ h4 {
   .similar__item {
     width: 137px;
   }
+
   .similar__img {
     width: 137px;
     height: 137px;
